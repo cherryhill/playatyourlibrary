@@ -73,6 +73,11 @@ function payl_program_customizations_form_alter(&$form, &$form_state, $form_id) 
     $form['field_reward_message']['und'][0]['#title'] = 'Onscreen Alert';
     $form['field_reward_notification']['und'][0]['#title'] = 'Message';
   }
+
+  // Changing of text from participants to Sender
+  if ($form_id == 'privatemsg_list') {
+    $form['updated']['list']['#header']['participants']['data'] = t('Sender');
+  }
 }
 
 function payl_program_customizations_user_register_validate($form, &$form_state) {
