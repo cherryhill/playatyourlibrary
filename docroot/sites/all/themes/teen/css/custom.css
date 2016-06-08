@@ -9470,6 +9470,41 @@ body .alert-box.success a.close:hover {
   }
 }
 
+/* @file
+ * This file is a custom file that loads all files. Each non-base layer
+ * can be disabled.
+ *
+ * Do not name this file, "app.scss". If you run a compass update this file can
+ * be wiped out with a compass update. By default, when a compass project is
+ * created the file will be named app.scss. Thus this file is named,
+ * THEMENAME.scss.
+ *
+ * This application file (THEMENAME.scss) is where all the partials are
+ * imported.
+ *
+ * Theme styles are categorized using SMACSS standards. They utilize
+ * categorization of styles into various categories. Those categories are the
+ * following:
+ *
+ * - Base: CSS reset/normalize plus HTML element styling.
+ * - Layout: Macro arrangement of a web page, including any grid systems.
+ * - Component: Dictate minor layout modules or reusable elements.
+ * - State: Describe the appearance of a module in various states.
+ * - Theme: Purely visual optional styling (“look-and-feel”) for a component.
+ *
+ * * Contains Sass customizations for the Klamath County Library sub-theme.
+ *
+ * Compile Sass into CSS with `compass clean && compass watch` for development
+ * environments or `compass clean && compass compile -e production --force` for
+ * production environments.
+ *
+ * @see config.rb
+ *
+ * For more information about this new Drupal css file standard, please review
+ * the following:
+ * - https://drupal.org/node/1887922
+ * - http://smacss.com/
+ */
 /**open single msg**/
 .page-messages-view .privatemsg-message-participants {
   width: 100%;
@@ -13495,6 +13530,41 @@ ul.quicktabs-tabs li a:focus, ul.quicktabs-tabs li a:hover {
   }
 }
 
+/* @file
+ * This file is a custom file that loads all files. Each non-base layer
+ * can be disabled.
+ *
+ * Do not name this file, "app.scss". If you run a compass update this file can
+ * be wiped out with a compass update. By default, when a compass project is
+ * created the file will be named app.scss. Thus this file is named,
+ * THEMENAME.scss.
+ *
+ * This application file (THEMENAME.scss) is where all the partials are
+ * imported.
+ *
+ * Theme styles are categorized using SMACSS standards. They utilize
+ * categorization of styles into various categories. Those categories are the
+ * following:
+ *
+ * - Base: CSS reset/normalize plus HTML element styling.
+ * - Layout: Macro arrangement of a web page, including any grid systems.
+ * - Component: Dictate minor layout modules or reusable elements.
+ * - State: Describe the appearance of a module in various states.
+ * - Theme: Purely visual optional styling (“look-and-feel”) for a component.
+ *
+ * * Contains Sass customizations for the Klamath County Library sub-theme.
+ *
+ * Compile Sass into CSS with `compass clean && compass watch` for development
+ * environments or `compass clean && compass compile -e production --force` for
+ * production environments.
+ *
+ * @see config.rb
+ *
+ * For more information about this new Drupal css file standard, please review
+ * the following:
+ * - https://drupal.org/node/1887922
+ * - http://smacss.com/
+ */
 /**
  * Styles for the Top Bar.
  */
